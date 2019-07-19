@@ -1,0 +1,323 @@
+* {
+  box-sizing:border-box;
+}
+
+.slideshow-container {
+  max-width: 2000px;
+  position: relative;
+  margin: auto;
+  padding-top: 45px;
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.navbar {
+  padding: 10px 10px;
+  margin-bottom: 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: lightblue;
+  z-index: 10;
+}
+
+
+a:hover {
+  background-color:#87CEEB;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+}
+
+a {
+    text-decoration: none;
+    margin-left: 60px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Poiret One', cursive;
+  font-size: 80px;
+  text-shadow: 6px 5px black;
+  text-align: center;
+  color: white;
+}
+
+.Ocean{
+  margin: auto;
+}
+
+body {
+  font-size: 28px;
+  background-color: #F0FFFF;
+}
+
+.active {
+  background-color: #87CEFA;
+}
+
+.intro {
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Patrick Hand', cursive;
+}
+
+.introTitle {
+  text-align: center;
+  font-size: 70px;
+  padding-top: 50px;
+  font-family: 'Dosis', sans-serif;
+ }
+
+container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: bottom;
+  /* vertical-align: 10em;
+  vertical-align: 4px;
+  vertical-align: 20%;
+  vertical-align: unset; */
+}
+
+.whale {
+  width: 120px;
+  height: 120px;
+  border-style: hidden;
+
+
+}
+
+.pollution {
+
+  font-size: 70px;
+  text-align: center;
+  padding-top: 100px;
+  font-family: 'Dosis', sans-serif;
+
+}
+
+.plastic {
+  font-family: 'Hanalei', cursive;
+  font-size: 50px;
+}
+
+.plastics {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 25px;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-indent: 5%;
+}
+
+.oil {
+  font-family: 'Pompiere', cursive;
+  font-size: 50px;
+}
+
+.oilP {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 25px;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-indent: 5%;
+}
+
+.toxic {
+  font-family: 'Butcherman', cursive;
+  font-size: 50px;
+}
+
+.toxicP {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 25px;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-indent: 5%;
+}
+
+.wasteD {
+  font-family: 'Righteous', cursive;
+  font-size: 50px;
+}
+
+.wasteP {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 25px;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-indent: 5%;
+}
+
+.globalT {
+  text-align: center;
+  font-size: 70px;
+  font-family: 'Dosis', sans-serif;
+  padding-bottom: 30px;
+}
+
+.stars {
+  float: right;
+}
+
+.star1 {
+  margin-top: 30px;
+}
+
+.globalI {
+  font-size: 50px;
+  font-family: 'Londrina Shadow', cursive;
+}
+
+.globalP {
+  font-size: 25px;
+  font-family: 'Patrick Hand', cursive;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-indent: 5%;
+}
+
+.oceanH {
+  font-size: 50px;
+  font-family: 'Kalam', cursive;
+}
+
+.oceanHeat {
+  font-size: 25px;
+  font-family: 'Patrick Hand', cursive;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-indent: 5%;
+}
+
+.seaSurface {
+  font-size: 50px;
+  font-family: 'Akronim', cursive;
+}
+
+.seaS {
+  font-size: 25px;
+  font-family: 'Patrick Hand', cursive;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-indent: 5%;
+}
+
+.photoGallery {
+  font-size: 70px;
+  text-align: center;
+  padding-top: 10px;
+  font-family: 'Dosis', sans-serif;
+}
+
+.takeTitle {
+  font-size: 70px;
+  padding: 30px;
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+}
+
+.takeInfo {
+  font-size: 25px;
+  font-family: 'Patrick Hand', cursive;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-indent: 5%;
+}
+
+.recycle {
+  font-size: 25px;
+  font-family: 'Patrick Hand', cursive;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-indent: 5%;
+}
+
+.imageG{
+padding-left: 100px;
+padding-top: 10px;
+}
+
+
+section {
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 1000px){
+  body{
+    background-color: #F0FFFF;
+  }
+}
